@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <link rel="stylesheet" href="style.css">
   
   <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
@@ -18,7 +19,7 @@
 <body>
   <section class="section__header">
     <header class="header-banner">
-      <img src="/images/logo.svg" alt="logo">  
+      <img src="/images/logo.svg" alt="logo" class="logo"> 
       <button>Try It Free</button>
     </header>
     <div class="section__header--container">
@@ -27,7 +28,7 @@
         Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
         Create connections with your users as you engage in genuine discussion. 
       </p>
-      <button>Get Started For Free</button>
+      <button class="cta-button">Get Started For Free</button>
       <img src="/images/illustration-mockups.svg" alt="">
     </div>
   </section>
@@ -59,48 +60,48 @@
       </div>
     </div>
   </section>
-
-
-  <!-- Grow Together
-
-  Generate meaningful discussions with your audience and build a strong, loyal community. 
-  Think of the insightful conversations you miss out on with a feedback form. 
-
-  Flowing Conversations
-
-  You wouldn't paginate a conversation in real life, so why do it online? Our threads 
-  have just-in-time loading for a more natural flow.
-
-  Your Users
-
-  It takes no time at all to integrate Huddle with your app's authentication solution. 
-  This means, once signed in to your app, your users can start chatting immediately.
-
-  Ready To Build Your Community?
-
-  Get Started For Free
-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-  incididunt ut labore et dolore magna aliqua
-
-  +1-543-123-4567
-  example@huddle.com
-
-  About Us
-  What We Do
-  FAQ
-
-  Career
-  Blog
-  Contact Us
-
-  &copy; Copyright 2018 Huddle. All rights reserved. -->
-
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
+  <section class="cta">
+    <div class="cta-container">
+      <h2 class="cta-heading">Ready To Build Your Community?</h2>
+      <button class="cta-button">Get Started For Free</button>
+    </div>
+  </section>
+  <section class="section__footer">
+      <img src="/images/logo-white.svg" alt="logo" class="logo">
+      <div class="info-pair-container">
+      <div class="info-pair">
+        <img src="/images/icon-location.svg" alt="location pin" class="info-icon">
+        <p class="info-text">  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+          incididunt ut labore et dolore magna aliqua</p>
+      </div>
+      <div class="info-pair">
+        <img src="/images/icon-phone.svg" alt="phone" class="info-icon">
+        <p class="info-text">  +1-543-123-4567</p>
+      </div>
+      <div class="info-pair">
+        <img src="/images/icon-email.svg" alt="email" class="info-icon">
+        <p class="info-text"> example@huddle.com</p>
+      </div>
+    </div>
+    <div class="footer-links">
+      <a href="#">About Us</a>
+      <a href="#">What we do</a>
+      <a href="#">FAQ</a>
+      <a href="#">Career</a>
+      <a href="#">Blog</a>
+      <a href="#">Contact Us</a>
+    </div>
+    <div class="footer-socials">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+    <footer>
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded with ❤︎ by Cat.
+      </p>
+    </footer>
+  </section>
 </body>
 </html>
