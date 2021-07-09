@@ -33,6 +33,12 @@ body {
     /* border: 1px solid blue; */
 }
 
+@media screen and (min-width:1000px){
+    .section__header {
+        background: url(/images/bg-hero-desktop.svg);
+    }
+}
+
 .header-banner {
     height:60px;
     display:flex;
@@ -66,6 +72,7 @@ body {
     text-align:center;
     margin-top:5rem;
 }
+
 
 .section__header--container h1 {
     line-height:30px;
@@ -114,6 +121,19 @@ body {
     margin-bottom:3rem;
 }
 
+@media screen and (min-width:1000px){
+    .key-value {
+        flex-direction:row;
+        justify-content:space-between;
+        text-align:left;
+        height: 23rem;
+        padding:0;
+        margin: 0 4rem;
+        margin-bottom: 2rem;
+    }
+}
+
+
 .key-value--image {
     width:80%;
     margin-top:3rem;
@@ -121,11 +141,41 @@ body {
     padding-top:1rem;
 }
 
+@media screen and (min-width:1000px){
+    .key-value--image-left {
+        order:2;
+    }
+
+    .key-value--image {
+        transform: scale(0.7);
+        width:50%;
+    }
+}
+
+@media screen and (min-width:2000px){
+    .key-value--image {
+        transform: scale(0.5);
+        width:50%;
+    }
+}
+
 .key-value--title {
     margin-bottom: 1.5rem;
     font-family: 'Poppins';
     font-weight: bold;
     letter-spacing:-0.6px;
+}
+
+@media screen and (min-width:1000px){
+    .key-value--title-right {
+        order:2;
+    } 
+
+    .key-value--title{
+        text-align:left;
+        margin: 0 2rem;
+        padding-bottom: 1rem;
+    }
 }
 
 .key-value--text {
@@ -156,6 +206,12 @@ footer {
     box-shadow: 0 0 3px rgb(168, 168, 168);
     margin: 0 0.7rem;
     background-color: white;
+}
+
+@media screen and (min-width:1000px){
+    .cta-container {
+        margin: 0px 13.7rem;
+    }
 }
 
 .cta-heading {
