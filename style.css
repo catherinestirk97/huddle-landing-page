@@ -48,6 +48,12 @@ body {
     justify-content:space-between;
 }
 
+@media screen and (min-width:2000px) {
+    .header-banner {
+        margin-top:1rem;
+    }
+}
+
 .header-banner img {
     height:20px;
     margin-left:0.7rem;
@@ -63,6 +69,16 @@ body {
     font-weight:900;
     background-color:white;
     box-shadow: 1px 2px 5px rgba(0, 37, 46,0.4);
+}
+
+@media screen and (min-width:2000px) {
+    .header-banner button {
+        font-size:1.4em;
+    }
+
+    .header-banner img {
+        height:30px;
+    }
 }
 
 .section__header--container {
@@ -100,6 +116,12 @@ body {
     
 }
 
+@media screen and (min-width:2000px) {
+    .section__header--container h1 {
+        font-size:2em;
+    }
+}
+
 .section__header--container p {
     margin:0 2rem;
     color: var(--very-dark-cyan);
@@ -114,6 +136,12 @@ body {
         margin-bottom:2rem;
     }
     
+}
+
+@media screen and (min-width:2000px) {
+    .section__header--container p {
+        font-size:1.5em;
+    }
 }
 
 .cta-button {
@@ -133,6 +161,12 @@ body {
         margin-left:-3rem;
     }
     
+}
+
+@media screen and (min-width:2000px) {
+    .cta-button {
+        margin-left:-50rem;
+    }
 }
 
 .section__header--container img {
@@ -203,6 +237,12 @@ body {
     }
 }
 
+@media screen and (min-width:2000px) {
+    .key-value--image {
+        transform: scale(0.4);
+    }
+}
+
 .key-value--title {
     margin-bottom: 1.5rem;
     font-family: 'Poppins';
@@ -227,6 +267,18 @@ body {
     color: var(--grayish-blue);
     margin: 0 2rem;
     line-height:1.5rem;
+}
+
+@media screen and (min-width:2000px){
+    .key-value--text {
+        line-height: 2.5rem;
+        font-size: 1.5em;
+    }
+
+    .key-value--title {
+        font-size:2em;
+    }
+    
 }
 
 .attribution {
@@ -266,6 +318,16 @@ footer {
     line-height:1.2em;
     font-size:1.2em;
     letter-spacing:-0.7px;
+}
+
+@media screen and (min-width:2000px) {
+    .cta-heading {
+        font-size:2em;
+    }
+
+    .cta-button {
+        font-size:1.4em;
+    }
 }
 
 .section__footer{
