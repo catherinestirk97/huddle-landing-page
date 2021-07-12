@@ -7,12 +7,9 @@ This is a solution to the [Huddle landing page with alternating feature blocks c
 Users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
-- See hover states for all interactive elements on the page
 
-<!-- ### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com) -->
+### Links
+- Live Site URL: https://catherinestirk97.github.io/huddle-landing-page/
 
 ### Built with
 
@@ -20,6 +17,9 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
+
+### What next?
+- Add interactive elements
 
 
 
