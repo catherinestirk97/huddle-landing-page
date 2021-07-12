@@ -332,63 +332,96 @@ footer {
 
 .section__footer{
     background-color: var(--very-dark-cyan);
+    padding:0 2rem;
     margin-top:-6rem;
     z-index:0;
     padding-top:10rem;
     color:white;
     display:flex;
     flex-direction:column;
-    align-items:flex-start;
+    justify-content:space-between;
     padding-bottom:3rem;
 }
 
-.section__footer .logo{
-    height:27px;
-    margin-bottom:2rem;
-    margin:0 1rem;
+@media screen and (min-width:750px) {
+    .section__footer {
+        flex-direction:row;
+        /* justify-content:center; */
+        align-items:center;
+    }
+    .section__footer-item{
+        flex:33%;
+    }
 }
 
-.info-pair-container {
+.logo-white {
+    height:27px;
+    margin-bottom:0.5rem;
+}
+
+.section__footer-one-container {
     display:flex;
-    margin:0 1rem;
-    flex-direction:column; 
-    justify-content:center;
-    
+    flex-wrap:wrap;
+    /* margin: 0.5rem 2rem; */
+    /* flex-direction:column; */
+}
+
+
+.info-pair {
+    width:100%;
+    display:flex;
+    padding-top:1rem;
+    font-size:0.9rem;
 }
 
 .info-pair img {
-    height:20px;
-    margin-top:1rem;
+    align-self: start;
+    padding-right: 2.2rem;
+    height: 20px;
+    margin-top: 5px;
 }
 
-.footer-links {
+.info-text-phone {
+    margin-left:-6px;
+}
+
+.info-text-email {
+    margin-left:-10px;
+}
+
+.section__footer-two {
     display:flex;
     flex-direction:column;
-    padding-top:3rem;
-    margin:0 1rem;
+    align-items:center;
+    padding-top:2rem;
     padding-bottom:2rem;
 }
 
-.footer-links a {
+/* @media screen and (min-width:750px) {
+    .section__footer-two {
+        flex-direction: row;
+    }
+} */
+
+.section__footer-two a {
     color:white;
     text-decoration:none;
     padding: 0.5rem 0;
 }
 
-.footer-socials {
+.section__footer-three {
     display:flex;
-    width:40vw;
-    margin: 0 auto;
-    padding: 1rem;
-    justify-content:space-between;
+    justify-content:center;
+    align-items:center;
 }
 
-.footer-socials a{
+.section__footer-three a {
     font-size:1rem;
     color:white;
     text-decoration:none;
     border: 1px solid white;
     padding: 0.55rem 0.8rem;
     border-radius: 30px;
+    margin: 0 0.5rem;
 }
 
